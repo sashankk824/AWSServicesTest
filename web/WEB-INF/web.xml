@@ -69,7 +69,7 @@
         </init-param>
         <init-param>
             <param-name>jdbcPwd</param-name>
-            <param-value>Gratuieeze$15</param-value>
+            <param-value>********</param-value>
         </init-param>
         <init-param>
             <param-name>dataSourceFlag</param-name>
