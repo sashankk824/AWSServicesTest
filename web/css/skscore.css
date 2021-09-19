@@ -1,0 +1,1295 @@
+/* All HTML TAGS */
+
+BODY{
+	background-color:#ffffff;
+	font-family:arial;
+	font-size:10px;
+	margin: 0 15%;
+	padding: 0 15%;
+}
+
+FORM {
+	font-family:arial;
+	font-size:12px;
+}
+
+DIV FORM {	
+	font-family:arial;
+	font-size:12px;
+}
+
+DIV TABLE TD {
+	font-family:arial;
+	font-size:12px;
+	margin: 0px; padding: 0px;	
+}
+
+DIV TABLE TD TABLE TD {
+	font-family:arial;
+	font-size:12px;
+	margin: 0px; padding: 0px;	
+}
+
+DIV TABLE FORM TD INPUT{
+	font-family:arial;
+	font-size:12px;
+}
+
+DIV TABLE FORM TD SELECT {
+	font-family:arial;
+	font-size:12px;
+}
+
+
+/* Page Header */
+
+#header {
+	position:absolute;
+	left:10px;
+	top:0px;
+	width:900px;
+	height:108px;
+	background-color:#34568B;
+}
+
+
+/* Page Footer */
+
+#footer {
+	position:absolute;
+	left:10px;
+	top:0px;
+	width:1200px;
+	height:18px;
+	background-color:#666666;
+	visibility:hidden;
+}
+
+#footer TABLE {
+	background-color:#666666;
+}
+
+#footer TD {
+	color:#ffffff;
+	font-family:arial;
+	font-size:12px;
+}
+
+#footer A {
+	color:#FFFFFF;
+	font-family:arial;
+	font-size:12px;
+	text-decoration:underline;
+}
+
+/* Top Info Bar */
+
+#topInfoBar {
+	position:absolute;
+	left:10px;
+	top:68px;
+	width:1200px;
+	height:20px;
+	background-color:#FFFFFF
+	font-family:arial;
+	font-size:12px;
+}	
+
+#topInfoBar TABLE TD {
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+	background-color:#FFFFFF;
+}
+
+#topInfoBar A {
+	color:#blue;
+	font-family:arial;
+	font-size:12px;
+	text-decoration:none;
+}
+
+#topInfoBar A:hover {
+	color:#ffffff;
+	font-family:arial;
+	font-size:12px;
+	color:#FFCC00
+}
+
+/* Top Nav Bar */
+
+#topNavBar {
+	position:absolute;
+	left:10px;
+	top:111px;
+	width:1200px;
+	height:40px;
+	background-color:#000000
+	font-family:arial;
+	font-size:12px;
+}
+
+#topNavBar navmenu {cursor:pointer;font-weight:bold;font-size: 13px;font-family: arial,helvetica,sanserif;color: #FFFFFF;white-space: nowrap;}
+
+
+#topNavBar TABLE TD {
+	color:#ffffff;
+	font-family:arial;
+	font-size:12px;
+	background-color:#000000;
+}
+
+#topNavBar A {
+	color:#ffffff;
+	font-family:arial;
+	font-size:13px;
+	text-decoration:none;
+}
+
+#topNavBar A:hover {
+	font-family:arial;
+	font-size:13px;
+	color:#FFCC00
+}
+
+#topSiteNavigation TD.yellow {
+	color:#FFFF00;
+	font-family:arial;
+	font-size:12px;	
+	font-weight:bold;
+}
+
+#topSiteNavigation .yellow {
+	color:#FFFF00;
+	font-family:arial;
+	font-size:12px;	
+	font-weight:bold;
+}
+
+/* Top Site Navigation */
+#topSiteNavigation {
+	position:absolute;
+	left:10px;
+	top:157px;
+	width:900px;
+	background-color:#ffffff
+	font-family:arial;
+	font-size:12px;
+}	
+
+#topSiteNavigation TABLE TD {
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+	background-color:#ffffff;
+}
+
+#topSiteNavigation A {
+	color:#003399;
+	font-family:arial;
+	font-size:12px;
+	text-decoration:none;
+}
+
+#topSiteNavigation A:hover {
+	color:##003399;
+	font-family:arial;
+	font-size:12px;
+	color:#cc0000
+}
+
+#topSiteNavigation TD.blue {
+	color:#0000FF;
+	font-family:arial;
+	font-size:12px;	
+	font-weight:bold;
+}
+
+#topSiteNavigation .blue {
+	color:#0000FF;
+	font-family:arial;
+	font-size:12px;	
+	font-weight:bold;
+}
+
+#topSiteNavigation TD.teal {
+	background-color:#C0C0C0;
+	font-weight:bold;
+}
+
+#topSiteNavigation .teal {
+	color:#118080;
+	height:14px;
+	font-weight:bold;
+}
+
+
+/* Left Column */
+
+#leftNavBar {
+	position:absolute;
+	left:10px;
+	top:140px;
+	width:160px;
+	background-color: #FFFFFF;
+}
+
+#leftNavBar TD.gray {
+	background-color:#EDEDED;
+	color:#000000;
+	height:16px;
+	text-decoration: none;
+	text-align: justify;
+	padding-right: 3px;
+	padding-left: 2px;	
+	padding-bottom: 0px;
+}
+
+
+#leftNavBar TD.brightLB {
+	background-color:#E6F3FF;
+	color:#000000;
+	height:24px;
+	font-family:arial;
+	font-size:14px;	
+	font-weight:bold;	
+}
+
+#leftNavBar TD.sideHilite {
+	background-color:#000000;
+	color:#FFCC00;
+	height:16px;
+}
+
+#leftNavBar TD.clear {
+	border:none; 
+	background-color:#FFFFFF;
+	color:#000000;
+	font-weight:bold;	
+}
+
+#leftNavBar TD.normaltext {
+	border:none; 
+	background-color:#FFFFFF;
+	color:#000000;
+}
+
+#leftNavBar TD.zoneTitle_FFFFFF {
+	color:#ffffff;
+	bgcolor:333333;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#leftNavBar .zoneTitle_FFFFFF {
+	color:#ffffff;
+	bgcolor:333333;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#leftNavBar TD.zoneSubTitle_FFFFFF {
+	color:#ffffff;
+	bgcolor:333333;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;	
+}
+
+#leftNavBar .zoneSubTitle_FFFFFF {
+	color:#FFFFFF;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;	
+}
+
+#leftNavBar TD.itemHdr {
+	color:#FFFFFF;
+	background-color: #00669A;
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+	height: 24px;
+	padding-left: 1px;
+}
+
+#leftNavBar .itemHdr {
+	color:#FFFFFF;
+	background-color:#00669A;
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+	height: 24px;	
+}
+
+#leftNavBar TD A {
+	padding-left:1px;
+	font-family:arial;
+	color:#000000;
+	font-size:12px;
+}
+
+#leftNavBar TD A:hover {
+	padding-left:1px;
+	font-family:arial;
+	font-size:12px;
+	color:red
+}
+
+#leftNavBar TD.leftBar {
+	background-color:#666666;
+}
+
+#leftNavBar TD.leftBar TD {
+	font-family:arial;
+	font-size:12px;
+	color:#FFFFFF;
+}
+
+#leftNavBar TD.grayCell {
+	background-color:#666666;
+	font-family:arial;
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#leftNavBar .grayCell {
+	background-color:#666666;
+	font-family:arial;
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+}
+
+
+
+#leftNavBar TD.red {
+	color:#FF0000;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;	   
+}
+
+#leftNavBar .red {
+	color:#FF0000;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	    
+}
+
+
+/* Center Column */
+#centerZones {
+	position:absolute;
+	top:140px;
+	left:10px;
+	width:890px;	
+	background-color:#FFFFFF;
+	color:#000000;
+	z-index=0;
+}
+
+#centerZones TABLE {
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+}
+
+#centerZones FORM SELECT {
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+}
+
+#centerZones TABLE TD TABLE TD FORM SELECT {
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+}
+
+#centerZones TABLE {
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+}
+
+#centerZones TABLE FORM INPUT {
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+}
+ 
+#centerZones FORM INPUT{
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+}
+
+#centerZones TD {
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+}
+
+#centerZones TD.itemHdr {
+	color:white;
+	background-color: #00669A;
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+	height: 24px
+}
+
+#centerZones .itemHdr {
+	color:white;
+	background-color:#00669A;
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+	height: 24px;
+	padding-left: 1px;	
+}
+
+#centerZones TD.itemSubHdr {
+	color:#FFFF00;
+	background-color: #00669A;
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+	height: 24px
+}
+
+#centerZones .itemSubHdr {
+	color: #FFFF00;
+	background-color:#00669A;
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+}
+
+#centerZones TD .text {
+	font-family:arial,helvetica,sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #000000;
+	text-decoration: none;
+	text-align: justify;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#centerZones TD A {
+	padding-left:1px;
+	font-family:arial;
+	color:blue;
+	font-size:12px;
+}
+
+#centerZones TD A:hover {
+	padding-left:1px;
+	font-family:arial;
+	font-size:12px;
+	color:red
+}
+
+#centerZones .text {
+	font-family:arial;
+	font-size: 12px;
+	line-height: 14px;
+	color: #000000;
+	text-decoration: none;
+	text-align: justify;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#centerZones TD.clear {
+	border:none; 
+	background-color:#FFFFFF;
+	color:#000000;
+	font-weight:bold;	
+}
+
+
+#centerZones .teal {
+	color:#118080;
+	height:13px;
+	font-weight:bold;
+}
+
+#centerZones TD.zoneTitle {
+	color:#666666;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#centerZones TD.zoneTitle_FFFFFF {
+	color:#ffffff;
+	bgcolor:333333;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;	
+}
+
+#centerZones .zoneTitle_FFFFFF {
+	color:#ffffff;
+	bgcolor:333333;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;	
+}
+
+#centerZones TD.zoneSubTitle_FFFFFF {
+	color:#ffffff;
+	bgcolor:333333;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;	
+}
+
+#centerZones .zoneSubTitle_FFFFFF {
+	color:#ffffff;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;	
+}
+
+#centerZones TD.zoneSubTitle_000000 {
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;	
+}
+
+#centerZones .zoneSubTitle_000000 {
+	color:#000000;
+	bgcolor:333333;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;	
+}
+
+#centerZones TD.zoneSubTitle  {
+    color:#000000;
+    font-family:arial;
+    font-size:12px;
+    font-weight:bold;
+}
+
+#centerZones .zoneSubTitle  {
+    color:#000000;
+    font-family:arial;
+    font-size:12px;
+    font-weight:bold;
+}
+
+#centerZones .zoneLink_14X000000 {
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+	color:#003399;
+	text-decoration:none;	
+}
+
+#centerZones TD.zoneLink_14X000000 {
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+	color:#003399;
+	text-decoration:none;	
+}
+
+#centerZones TD.lightGray {
+	background-color:#cccccc;
+	color:#000000;
+}
+
+#centerZones .lightGray {
+	background-color:#cccccc;
+	color:#000000;
+}
+
+#centerZones TD.gray {
+	background-color:#999999;
+	color:#000000;
+}
+
+#centerZones .gray {
+	background-color:#999999;
+	color:#000000;
+}
+
+#centerZones TD.red {
+	color:#FF0000;
+    font-family:arial;
+    font-size:12px;
+	font-weight:bold;
+	    
+}
+
+#centerZones .red {
+	color:#FF0000;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;    
+}
+
+
+#centerZones TD.brown {
+	color:#660000;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	    
+}
+
+#centerZones .brown {
+	color:#660000;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;    
+}
+
+
+#centerZones TD.teal {
+    color:#008080;
+    font-family:arial;
+    font-size:12px;
+}
+
+#centerZones .teal {
+    color:#008080;
+    font-family:arial;
+    font-size:12px;
+}
+
+
+#centerZones TD.edededGray {
+	background-color:#EDEDED;
+	color:#333333;
+	height:16px;
+}
+
+#centerZones .edededGray {
+	background-color:#EDEDED;
+	color:#333333;
+	height:16px;
+}
+
+#centerZones TD.lightBlue {
+	background-color:#99CCFF;
+	color:#000000;
+	height:16px;
+	font-weight:bold;
+}
+
+#centerZones .lightBlue {
+	background-color:#99CCFF;
+	color:#000000;
+	height:16px;
+	font-weight:bold;
+}
+
+#centerZones TD A {	
+	padding-left:0px;
+	font-family:arial;
+	font-size:12px;
+	text-decoration:none;
+}
+
+#centerZones TD.centerBar {
+	background-color:#666666;
+}
+
+#centerZones TD.centerBar TD {
+	font-family:arial;
+	font-size:12px;
+	color:#FFFFFF;
+}
+
+#centerZones TD.title {
+	background-color:#666666;
+	font-family:arial;
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#centerZones TD.centerBar TD.title A {
+	background-color:#666666;
+	font-family:arial;
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#centerZones TD.grayCell {
+	background-color:#666666;
+	font-family:arial;
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#centerZones .errorMsg {
+	color:#FF0000;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+}
+
+/* Right Side Column */
+
+#rightZones {
+	position:absolute;
+	left:770px;
+	top:140px;
+	width:140px;
+	font-family:arial;
+	font-size:12px;	
+}
+
+
+#rightZones TD.itemHdr {
+	color:white;
+	background-color: #00669A;
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+	height: 24px
+}
+
+#rightZones .itemHdr {
+	color:white;
+	background-color:#00669A;
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+	height: 24px;
+	padding-left: 1px;	
+}
+
+
+#rightZones TD.rightBar {
+	background-color:#666666;
+}
+
+#rightZones TD.rightBar TD {
+	font-family:arial;
+	font-size:12px;
+	color:#FFFFFF;
+}
+
+#rightZones TD.zoneTitle_FFFFFF {
+	color:#ffffff;
+	bgcolor:333333;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;	
+}
+
+#rightZones .zoneTitle_FFFFFF {
+	color:#ffffff;
+	bgcolor:333333;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;	
+}
+
+#rightZones TD.zoneSubTitle_FFFFFF {
+	color:#ffffff;
+	bgcolor:333333;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;	
+}
+
+#rightZones .zoneSubTitle_FFFFFF {
+	color:#ffffff;
+	bgcolor:333333;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;	
+}
+
+#rightZones TD.gray {
+	background-color:#EDEDED;
+	color:#333333;
+}
+
+#rightZones .gray {
+	background-color:#cccccc;
+	color:#000000;
+}
+
+#rightZones TD.edededGray {
+	background-color:#EDEDED;
+	color:#333333;
+}
+
+#rightZones TD.edededGray {
+	background-color:#EDEDED;
+	color:#333333;
+}
+
+#rightZones TD.lightGray {
+	background-color:#cccccc;
+	color:#000000;
+}
+
+#rightZones .lightGray {
+	background-color:#cccccc;
+	color:#000000;
+}
+
+#rightZones TD.gray {
+	background-color:#999999;
+	color:#000000;
+}
+
+#rightZones .gray {
+	background-color:#999999;
+	color:#000000;
+}
+
+#rightZones TD.lightBlue {
+	background-color:#99CCFF;
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+}
+
+#rightZones .lightBlue {
+	background-color:#99CCFF;
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+}
+
+#rightZones TD A {	
+	padding-left:0px;
+	font-family:arial;
+	font-size:11px;
+}
+
+#rightZones TD A:hoover {	
+	padding-left:0px;
+	font-family:arial;
+	font-size:11px;
+}
+
+#rightZones TD.genLineSep {
+    background:#999999;
+}
+
+#rightZones TD.lgLine {
+    background:#666666;
+}
+
+#rightZones TD.grayCell {
+	background-color:#666666;
+	font-family:arial;
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#rightZones TD.teal {
+    color:#008080;
+    font-family:arial;
+    font-size:12px;
+}
+
+#rightZones .teal {
+    color:#008080;
+    font-family:arial;
+    font-size:12px;
+}
+
+#rightZones TD.black_9px {
+    color:#000000;
+    font-family:arial;
+    font-size:9px;
+}
+
+#rightZones .black_9px {
+    color:#000000;
+    font-family:arial;
+    font-size:9px;
+}
+
+
+/* Right Side Ads and info Column */
+
+#rightInfoZones {
+	position:absolute;
+	left:790px;
+	top:0px;
+	width:180px;
+}
+
+#rightInfoZones TD.pageHeader {
+	padding-left:0px;
+    padding-right:5px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:14px;
+}
+
+#rightInfoZones .pageHeader {
+	padding-left:0px;
+    padding-right:5px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:14px;
+}
+
+
+#rightInfoZones TD.rightBar {
+	background-color:#666666;
+}
+
+#rightInfoZones TD.rightBar TD {
+	font-family:arial;
+	font-size:12px;
+	color:#FFFFFF;
+}
+
+#rightInfoZones TD.zoneTitle_FFFFFF {
+	color:#ffffff;
+	bgcolor:#333333;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;	
+}
+
+#rightInfoZones .zoneTitle_FFFFFF {
+	color:#ffffff;
+	bgcolor:333333;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;	
+}
+
+#rightInfoZones TD.zoneSubTitle_FFFFFF {
+	color:#ffffff;
+	bgcolor:333333;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;	
+}
+
+#rightInfoZones .zoneSubTitle_FFFFFF {
+	color:#ffffff;
+	bgcolor:333333;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;	
+}
+
+#rightInfoZones TD.gray {
+	background-color:#EDEDED;
+	color:#333333;
+}
+
+#rightInfoZones .gray {
+	background-color:#cccccc;
+	color:#000000;
+}
+
+#rightInfoZones TD.edededGray {
+	background-color:#EDEDED;
+	color:#333333;
+}
+
+#rightInfoZones TD.edededGray {
+	background-color:#EDEDED;
+	color:#333333;
+}
+
+#rightInfoZones TD.lightGray {
+	background-color:#cccccc;
+	color:#000000;
+}
+
+#rightInfoZones .lightGray {
+	background-color:#cccccc;
+	color:#000000;
+}
+
+#rightInfoZones TD.gray {
+	background-color:#999999;
+	color:#000000;
+}
+
+#rightInfoZones .gray {
+	background-color:#999999;
+	color:#000000;
+}
+
+#rightInfoZones TD.lightBlue {
+	background-color:#99CCFF;
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+}
+
+#rightInfoZones .lightBlue {
+	background-color:#99CCFF;
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+}
+
+#rightInfoZones TD A {	
+	padding-left:0px;
+	font-family:arial;
+	font-size:11px;
+}
+
+#rightInfoZones TD A:hoover {	
+	padding-left:0px;
+	font-family:arial;
+	font-size:11px;
+}
+
+#rightInfoZones TD.genLineSep {
+    background:#999999;
+}
+
+
+
+###################################
+
+.errorMsg {
+	color:#red;
+	font-family:arial;
+	font-size:12px;
+}
+
+/* Individul fonts */
+
+.noUnderline {
+	text-decoration:none;
+}
+
+.navHilite {
+	color:#FFCC00;
+	font-family:arial;
+	font-size:12px;
+	text-decoration:none;
+}
+
+/* Black */
+
+.arial_11px_000000{
+	color:#000000;
+	font-family:arial;
+	font-size:11px;
+}
+
+.arial_12px_000000{
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+}
+
+.arial_12PX_000000 {
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+}
+
+.arial_12px_000000_BOLD {
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+	font-weight:BOLD;
+}
+
+.arial_12px_000000 A {
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+	text-decoration:underline;
+}
+
+.arial_14PX_000000_BOLD{
+	color:#000000;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+/* White */
+
+.arial_11px_FFFFFF{
+	color:#ffffff;
+	font-family:arial;
+	font-size:11px;
+}
+
+.arial_12px_FFFFFF{
+	color:#ffffff;
+	font-family:arial;
+	font-size:12px;
+}
+
+.arial_12px_FFFFFF A {
+	color:#ffffff;
+	font-family:arial;
+	font-size:12px;
+	text-decoration:underline;
+}
+
+.arial_12px_FFFFFF_BOLD {
+	color:#ffffff;
+	font-family:arial;
+	font-size:12px;
+}
+
+.arial_14PX_FFFFFF_BOLD {
+	color:#FFFFFF;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.arial_14PX_FFFFFF_BOLD A {
+	color:#FFFFFF;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.arial_16PX_FFFFFF_BOLD {
+	color:#FFFFFF;
+	font-family:arial;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.arial_16PX_FFFFFF_BOLD A {
+	color:#FFFFFF;
+	font-family:arial;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.arial_16PX_FFCC00_BOLD {
+	color:#FFCC00;
+	font-family:arial;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.arial_16PX_FFCC00_BOLD A {
+	color:#FFCC00;
+	font-family:arial;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.arial_18PX_FFFFFF_BOLD {
+	color:#FFFFFF;
+	font-family:arial;
+	font-size:18px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.arial_18PX_FFFFFF_BOLD A {
+	color:#FFFFFF;
+	font-family:arial;
+	font-size:18px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.arial_18PX_FFCC00_BOLD {
+	color:#FFCC00;
+	font-family:arial;
+	font-size:18px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.arial_18PX_FFCC00_BOLD A {
+	color:#FFCC00;
+	font-family:arial;
+	font-size:18px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+
+.arial_16PX_FFFF00_BOLD {
+	color:#FFFF00;
+	font-family:arial;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.arial_14PX_FFFF00_BOLD {
+	color:#FFFF00;
+	font-family:arial;
+	font-size:18px;
+	font-weight:bold;
+}
+
+/* Light Gray */
+
+.arial_12px_666666{
+	color:#666666;
+	font-family:arial;
+	font-size:12px;
+}
+
+.arial_12px_666666 A {
+	color:#666666;
+	font-family:arial;
+	font-size:12px;
+	text-decoration:underline;
+}
+
+.arial_12PX_666666_BOLD {
+	color:#666666;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.arial_12px_99CCFF_BOLD{
+	color:#99CCFF;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+}
+
+/* Dark Gray */
+
+.arial_12px_99CCFF{
+	color:#99CCFF;
+	font-family:arial;
+	font-size:12px;
+	font-weight:normal;
+}
+
+.arial_12px_66CCFF{
+	color:#66CCFF;
+	font-family:arial;
+	font-size:12px;
+	font-weight:normal;
+}
