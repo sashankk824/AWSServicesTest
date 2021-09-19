@@ -11,3 +11,5 @@
 ## AWS Temperature Page 
 
 ### Simulate viewing and adding temperature sensor reading details to AWS using API Gateway, AWS Lambda, Amazon DynamoDB, and Java
+
+Link to UI screenshots: []
