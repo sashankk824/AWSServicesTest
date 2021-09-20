@@ -12,4 +12,4 @@
 
 ### Simulate viewing and adding temperature sensor reading details to AWS using API Gateway, AWS Lambda, Amazon DynamoDB, and Java
 
-Link to UI screenshots: [/AWS Services Test ]
+Link to UI screenshots: [/AWS Services Test Screenshots]()
